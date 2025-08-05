@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff0f6;  /* Light pink background */
+  color: #ff66b2;  /* Pink text */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-container {
+  width: 300px;
+  background-color: #ffe6f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#chat-box {
+  height: 200px;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ff66b2;
+}
+
+#message-input {
+  width: calc(100% - 50px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ff66b2;
+}
+
+#send-btn {
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  width: 50px;
+}
+
+button:disabled {
+  background-color: #ff99cc;
+}
